@@ -1,0 +1,114 @@
+
+.container{
+   z-index: 1; 
+    max-width: 900px;
+}
+.isi-conten{
+    margin-top: 20px;
+    /* margin: 40px 150px 100px 150px; */
+    height: auto;
+    justify-content: center;
+}
+.logo{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.img-logo{
+    max-width: 100%;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    box-shadow: 2px 3px 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+.teks-toko{
+    max-width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Playfair Display',serif;
+    
+}
+.judul{
+    font-size: 30px;
+    
+}
+.dekripsi{
+    font-size: 10px;
+}
+.button{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20PX;
+    background-color: #5d646f;
+    border-radius: 10px;
+    height: auto;
+    padding: 20px;
+}
+.conten-button{
+   margin-top: 15PX;
+    width: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 4px 7px 8px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 4px 7px 8px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 7px 8px -3px rgba(0,0,0,0.75);
+}
+
+.conten-button:hover{
+    background-color: #f8b501;
+}
+
+.deskripsi-produk{
+    background-color: #f7f7f7;
+    padding: 10px;
+}
+
+.peringatan{
+    background-color: #f8b501;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: bolder;
+    
+}
+ 
+.btn-wa{
+    position: fixed;
+    
+    z-index: 9;
+    bottom: 20px;
+    
+    right: 20%;
+}
+.img-wa{
+    width: 80px;
+    height: auto;
+    
+}
+.btn-konten{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    
+}
+
+footer{
+    text-align: center;
+    height: auto;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 8px;
+}
