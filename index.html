@@ -11,9 +11,8 @@
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
-  <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
-  <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
   </head>
   <body>
     <div class="container">
@@ -24,7 +23,7 @@
       <div class="teks-toko"  >
         <h1>Ammu Collections</h1>
         <h6>Berkualitas</h6>
-        <a href="#order">klik untuk deskripsi produk</a>
+        <a href="#deskripsi">klik untuk deskripsi produk</a>
       </div>
 <hr>
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -94,7 +93,7 @@
       <br><hr>
 
       <div class="deskripsi-produk">
-        <p class="peringatan">PERHATIKAN DESKRIPSI INI. 
+        <p id="deskripsi" class="peringatan">PERHATIKAN DESKRIPSI INI. 
           <br>
           ANDA MEMESAN = ANDA SUDAH MEMBACA DESKRIPSI INI. </p>
         <p>KOKO AMMU COLLECTION PUTIH ORIGINAL MODEL HABAIB  khusus putih
@@ -127,8 +126,9 @@
       
       <div class="button">
         <p id="order" class="peringatan ">BACA DESKRIPSI SEBELUM MEMBELI!!!</p>
-        <img class="img-wa" src="assets/img/btn-wa.png"  alt="...">
-        <button type="button" class="conten-button" onclick="redirwa()">Klik untuk Order</button>
+        <h4>Pesan Sekarang:</h4>
+        <button type="button" class="conten-button" onclick="redirwa()" ><i class="fa-brands fa-whatsapp fa-2xl"></i></button>
+        <button type="button" class="conten-button" onclick="redirig()" ><i class="fa-brands fa-instagram fa-2xl"></i></button>
 
       </div>
       
@@ -146,7 +146,10 @@
   </script>
   <script>
   function redirwa(){
-    window.location.href= "https://wa.me/+6282123524785"
+    window.location.href= "https://wa.me/+628815133966"
+  }
+  function redirig(){
+    window.location.href= "https://instagram.com/ammu_collections_official?igshid=MzNlNGNkZWQ4Mg=="
   }
 </script>
 </html>
